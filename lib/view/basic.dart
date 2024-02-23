@@ -8,6 +8,8 @@ class PlayersScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final provider = Provider.of<PlayersProvider>(context);
     final players = provider.players;
+
+    print(players);
     return Scaffold(
       appBar: AppBar(
         title: Text('Players'),

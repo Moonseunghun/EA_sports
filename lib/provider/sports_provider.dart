@@ -19,7 +19,7 @@ class PlayersProvider extends ChangeNotifier {
       }
       notifyListeners();
     } catch (e) {
-      print('Error fetching players: $e');
+      print('Error: $e');
     }
   }
 }
