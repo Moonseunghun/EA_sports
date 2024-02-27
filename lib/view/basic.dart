@@ -12,7 +12,7 @@ class PlayersScreen extends StatelessWidget {
     print(players);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Players'),
+        title: Text('Rankers'),
       ),
       body: Center(
         child: players.isEmpty
